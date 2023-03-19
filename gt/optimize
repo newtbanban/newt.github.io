@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Waiting Page</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    .message {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: purple;
+    }
+  </style>
+</head>
+
+
+<img src="https://th.bing.com/th/id/R.61ac878f4deb2ed09415b33bf1266a13?rik=uXcdKTWcmMMs3w&riu=http%3a%2f%2fpngimg.
+com%2fuploads%2ftwitch%2ftwitch_PNG16.png&ehk=yvtRIwNSCt21MfNechoTWvWd6%2bQIaqwANPcrxZYjJrI%3d&risl=&pid=ImgRaw&r=0"width="800"height="600">
+
+
+<body>
+<div class="message">
+  Please wait while we process your request
+</div>
+<a href="#" onclick="setTimeout(redirect, 3000)">CLICK THIS TO REDIRECT IN 3 SECS</a>
+
+<script>
+  function redirect(){
+    window.location.href = "https://www.twitch.tv/";
+  }
+
+</script>
+
+</body>
+</html>
